@@ -9,11 +9,11 @@ Fr: Trouve la valeur de l'argument fournit à une fonction pour un résultat cib
 ## Usage
 
 ```js
-import findArg from 'findArg'
+import findarg from 'findarg'
 
 const TARGET_RESULT = 9
 
-let argument = findArg(myFunc, TARGET_RESULT)
+let argument = findarg(myFunc, TARGET_RESULT)
 
 console.log(argument) // 3 ± 0.001
 

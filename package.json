@@ -1,6 +1,6 @@
 {
   "name": "findarg",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Finds the value of the argument provides a function for a target result.",
   "main": "index.js",
