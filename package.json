@@ -16,7 +16,7 @@
     "argument",
     "resolve"
   ],
-  "author": "Jonas Voisard",
+  "author": "Jonas Voisard<jonas.voisard@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/peufone/findarg/issues"
