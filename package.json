@@ -1,0 +1,25 @@
+{
+  "name": "findarg",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Finds the value of the argument provides a function for a target result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peufone/findarg.git"
+  },
+  "keywords": [
+    "find",
+    "argument",
+    "resolve"
+  ],
+  "author": "Jonas Voisard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/peufone/findarg/issues"
+  },
+  "homepage": "https://github.com/peufone/findarg#readme"
+}
