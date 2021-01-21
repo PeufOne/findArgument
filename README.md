@@ -38,7 +38,7 @@ function myFunc(arg) {
 | keyResult     | String | null    | In the case where the function returns an object, this key allows to extract the targeted value. |
 | currentArg    | Number | 0       | Argument whose result is known for the function.                                                 |
 | currentResult | Number | 0       | Known result returned by the function with the aforementioned argument.                          |
-| initialSlope  | Number | 1       | Slope of the function at the currentArg.                                                         |
+| currentSlope  | Number | 1       | Slope of the function at the currentArg.                                                         |
 | precision     | Number | 0.001   | Precision with which the target must be reached.                                                 |
 | maxAttemps    | Number | 100     | Number of tries before abdicating.                                                               |
 | isPerfLog     | Bolean | false   | Log the execution time of the resolution.                                                        |

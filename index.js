@@ -3,7 +3,7 @@
  * @property {string} [keyResult=null] In the case where the function returns an object, this key allows to extract the targeted value.
  * @property {number} [currentArg=0] Argument whose result is known for the function.
  * @property {number} [currentResult=0] Known result returned by the function with the aforementioned argument.
- * @property {number} [initialSlope=1] Slope of the function at the currentArg.
+ * @property {number} [currentSlope=1] Slope of the function at the currentArg.
  * @property {number} [precision=0.001] Precision with which the target must be reached.
  * @property {number} [maxAttemps=100] Number of tries before abdicating.
  * @property {boolean} [isPerfLog=false] Log the execution time of the resolution.
@@ -15,7 +15,7 @@ const defaultOptions = {
     keyResult: null,
     currentArg: 0,
     currentResult: 0,
-    initialSlope: 1,
+    currentSlope: 1,
     precision: 0.001,
     maxAttemps: 100,
     isPerfLog: false
@@ -40,7 +40,7 @@ export default function findArg(func, targetResult, options) {
         keyResult,
         currentArg,
         currentResult,
-        initialSlope,
+        currentSlope,
         precision,
         maxAttemps,
         isPerfLog
@@ -49,7 +49,7 @@ export default function findArg(func, targetResult, options) {
     let tempResult = 0;
     let rest = null;
     let diff = targetResult - currentResult;
-    let slope = initialSlope;
+    let slope = currentSlope;
     let move = 0;
     let compteur = 0;
   
