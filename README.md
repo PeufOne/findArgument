@@ -4,7 +4,9 @@ En: Finds the value of the argument provides a function for a target result.
 
 Fr: Trouve la valeur de l'argument fournit à une fonction pour un résultat cible.
 
-> Does not work on chaotic functions
+> Experimental !
+> Does not work on chaotic functions !
+> 
 
 ## Usage
 
@@ -36,8 +38,8 @@ function myFunc(arg) {
 | Name          | type   | Default | Definition                                                                                       |
 | :------------ | :----- | :------ | :----------------------------------------------------------------------------------------------- |
 | keyResult     | String | null    | In the case where the function returns an object, this key allows to extract the targeted value. |
-| currentArg    | Number | 0       | Argument whose result is known for the function.                                                 |
-| currentResult | Number | 0       | Known result returned by the function with the aforementioned argument.                          |
+| currentArg    | Number | 1       | Argument whose result is known for the function.                                                 |
+| currentResult | Number | 1       | Known result returned by the function with the aforementioned argument.                          |
 | currentSlope  | Number | 1       | Slope of the function at the currentArg.                                                         |
 | precision     | Number | 0.001   | Precision with which the target must be reached.                                                 |
 | maxAttemps    | Number | 100     | Number of tries before abdicating.                                                               |
@@ -55,6 +57,6 @@ If you provided the `keyResult` option, an object is returned :
 }
 ```
 
-## Operation
+## How that work
 
 TODO..
