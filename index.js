@@ -48,7 +48,7 @@ export default function findArg(func, targetResult, options) {
   
     let tempResult = 0;
     let rest = null;
-    let diff = targetResult - currentResult;
+    let diff = targetResult - currentResult || 1;
     let slope = currentSlope;
     let move = 0;
     let compteur = 0;
