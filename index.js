@@ -56,7 +56,7 @@ export default function findArg(func, targetResult, options) {
     if (isPerfLog) console.time("Found argument");
   
     do {
-        move = diff / slope;
+        move = diff / slope || 1;
         currentArg += move;
     
         if (keyResult) ({ [keyResult]: tempResult, ...rest } = func(currentArg));
