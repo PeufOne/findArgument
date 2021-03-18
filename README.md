@@ -1,8 +1,8 @@
 # findarg
 
-En: Finds the value of the argument provides a function for a target result.
+En: Find the argument to supply to a function for a target result.
 
-Fr: Trouve la valeur de l'argument fournit à une fonction pour un résultat cible.
+Fr: Trouve l'argument à fournir à une fonction pour un résultat cible.
 
 > Experimental !
 > Does not work on chaotic functions !
