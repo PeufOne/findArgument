@@ -22,8 +22,9 @@ const defaultOptions = {
 };
   
 /**
- * Fr: Trouve la valeur de l'argument fournit à une fonction pour un résultat cible.
- * En: Finds the value of the argument supplied to a function for a target result.
+ * Find the argument to supply to a function for a target result.
+ * |
+ * Trouve l'argument à fournir à une fonction pour un résultat cible.
  *
  * L'approche est naïve, on essaye, on constate, on essaye, on constate...
  * Cependant, si la fonction est suffisant lisse et que la pente est connu, le problème peut être résolu en un coup.
